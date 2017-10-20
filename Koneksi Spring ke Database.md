@@ -29,3 +29,9 @@ Pada application.properties, tambahkan konfigurasi berikut ini:
 ``` properties
 spring.jpa.show-sql=true
 ```
+
+## Memformat SQL Pada Console
+Pada application.properties, tambahkan konfigurasi berikut ini:
+``` properties
+spring.jpa.properties.hibernate.format_sql=true
+```
